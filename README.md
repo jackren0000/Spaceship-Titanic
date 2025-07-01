@@ -1,21 +1,42 @@
-# [Spaceship Titanic](https://www.kaggle.com/competitions/spaceship-titanic/overview)
+### **Spaceship Titanic: Lost in Space? 🚀**
 
-This is a Kaggle competition about predicting which passengers are transported to an alternate dimension
+What if the Titanic was a spaceship that collided with a spacetime anomaly? In this project, we're tackling a futuristic version of the classic Titanic survival problem. Our mission is to predict which passengers were transported to an alternate dimension during the collision.
 
-## Overview
+#### **Our Cosmic Journey 🌌**
 
-In the year 2912, the Spaceship Titanic set out on its maiden voyage, carrying nearly 13,000 passengers to habitable exoplanets. Tragically, the ship encountered a spacetime anomaly and many passengers were lost to an alternate dimension. Your mission, should you choose to accept it, is to predict which passengers were transported by the anomaly, using the records recovered from the damaged computer system.
+1.  **Data Exploration 🔭:** We started by exploring the dataset to get to know our intergalactic passengers. We looked at features like their home planet, age, and whether they were in cryosleep.
 
-This challenge is part of a competition that runs indefinitely on Kaggle, featuring a rolling leaderboard to keep the competition fresh and engaging.
+2.  **Data Cleanup 🧹:** The data had some missing values and categorical features that needed to be handled. We imputed missing values and used one-hot encoding to get the data ready for our models.
 
-## Description
+3.  **Model Building 🤖:** We built and trained several machine learning models to see which one could best predict a passenger's fate:
+    *   **Logistic Regression**
+    *   **K-Nearest Neighbors (KNN)**
+    *   **Random Forest**
+    *   **Deep Learning (with PyTorch)**
 
-The Spaceship Titanic competition is an excellent starting point for those new to data science and machine learning. Before diving into this cosmic mystery, it's recommended to try out the "Titanic - Machine Learning from Disaster" competition to get a grasp of machine learning basics.
+#### **The Verdict 🏆**
 
-## Evaluation
+After training and evaluating our models, the **Deep Learning model** emerged as the winner with an accuracy of **82.46%**. This shows that even in the vastness of space, neural networks can find the patterns that determine a passenger's destiny.
 
-Submissions are evaluated based on classification accuracy—the percentage of predicted labels that are correct.
+#### **Tech We Used 🛠️**
 
-### Submission Format
+*   Python
+*   Pandas & NumPy
+*   Scikit-learn
+*   PyTorch
+*   Jupyter Notebook
 
-Submit your predictions in a CSV file with the following format:
+#### **Want to Explore the Anomaly? 🚀**
+
+1.  **Clone the repo:**
+    ```bash
+    git clone https://github.com/jackren0000/Spaceship-Titanic.git
+    ```
+2.  **Install the libraries:**
+    ```bash
+    pip install pandas numpy scikit-learn torch jupyter
+    ```
+3.  **Run the notebook:**
+    ```bash
+    jupyter notebook spaceship-titanic.ipynb
+    ```
